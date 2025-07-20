@@ -1,0 +1,125 @@
+{
+    "documents": [
+        {
+            "id": "id__585",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.36,
+                "neutral": 0.18,
+                "negative": 0.46
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.37,
+                        "negative": 0.61
+                    },
+                    "offset": 0,
+                    "length": 236,
+                    "text": "I can let go of the flower, now my power has returned I can look back at the past, now I see what I have learned Try my best to act my age, but the child won't behave She wants to scream and cry and rage And who am I to take her grave?\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.68,
+                        "neutral": 0.26,
+                        "negative": 0.06
+                    },
+                    "offset": 236,
+                    "length": 196,
+                    "text": "The teenage years I never lived The innocence of high school kids Young romance and endless nights Of carefree joy and pure delight Didn't grow up in a normal world And now I'm just an adult girl\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.15,
+                        "neutral": 0.18,
+                        "negative": 0.67
+                    },
+                    "offset": 432,
+                    "length": 228,
+                    "text": "Now I'm too old to die young, but at least I had some fun Spent my twenties on the run dreamin' of suicide and love Think I'm stuck somewhere between childhood and va-va-voom Always cycling in-between existential dread and doom\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.05,
+                        "negative": 0.95
+                    },
+                    "offset": 660,
+                    "length": 200,
+                    "text": "Messy numb razors and knives Missed arteries and blacked-out nights Kittens, mittens, plushy toys Bows and hearts and sullen boys Robbed me of a teenage world Now I'm just an adult girl An adult girl\n",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 685,
+                            "length": 6,
+                            "text": "knives",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 663,
+                            "length": 5,
+                            "text": "Messy",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.25,
+                        "neutral": 0.54,
+                        "negative": 0.21
+                    },
+                    "offset": 860,
+                    "length": 116,
+                    "text": "Someone, tell me how to heal the terror livin' inside me I don't even know what's real, I just know I wanna be free\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.92,
+                        "neutral": 0.05,
+                        "negative": 0.03
+                    },
+                    "offset": 976,
+                    "length": 296,
+                    "text": "All the things I lost and loved Swept them underneath the rug Like the child, I wait and hope You might repair the things you broke Now I understand the world of adult boys 'cause I'm an adult girl I'm an oyster without a pearl But that's just how it is for an adult girl An adult girl Adult girl",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}
