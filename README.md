@@ -46,6 +46,16 @@ A música utilizada como base para os testes foi:
 - `/images`: capturas de tela das configurações e análises feitas.
 - `/insights`: anotações e aprendizados práticos com cada ferramenta.
 - `/transcricao`: transcrição gerada da música utilizada no Speech Studio.
+- `/results`: análise de sentimentos da musica.
+
+  ## 📊 Resultados da Análise com Language Studio
+
+A análise de sentimentos feita com a transcrição da música resultou em um arquivo JSON estruturado, disponível na pasta `/results`.
+
+> 🔍 [Clique aqui para visualizar o arquivo](./results/language-analysis.json)
+
+Cada trecho da música foi classificado quanto ao sentimento predominante (positivo, negativo, misto ou neutro), acompanhado dos respectivos scores de confiança.
+
 
 ---
 
