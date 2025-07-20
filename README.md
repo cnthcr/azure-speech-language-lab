@@ -60,4 +60,3 @@ Este laboratório proporcionou uma compreensão mais profunda sobre como as ferr
 - Música: *"Adult Girl"* - MARINA
 - Álbum: *Princess of Power*
 - Desenvolvido por: **Cinthia Ramos**
-# azure-speech-language-lab
