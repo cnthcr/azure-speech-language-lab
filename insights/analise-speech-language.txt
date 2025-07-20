@@ -1,0 +1,86 @@
+# Insights - Azure Speech Studio & Language Studio
+## Música analisada: "Adult Girl" - MARINA
+
+---
+
+## 🎙️ Speech Studio – Transcrição de Áudio
+
+### ✅ O que foi feito:
+Utilizei o Azure Speech Studio para converter a música em texto (speech-to-text), a partir de um trecho da faixa “Adult Girl”.
+
+### 🔍 Resultado obtido:
+O serviço conseguiu captar **fragmentos da letra**, porém com diversas **falhas de compreensão e cortes** no texto.
+
+#### Exemplo da transcrição gerada:
+> “My age, but the child will be. She wants to scream and cry and rage and who am I to her grave? The teenage years are never lived…”
+
+#### Texto original da música:
+> “Try my best to act my age, but the child won't behave. She wants to scream and cry and rage. And who am I to take her grave?”
+
+### ⚠️ Principais dificuldades observadas:
+- O Speech Studio **não conseguiu identificar a música por completo**.
+- Houve perda de trechos importantes e **substituições erradas de palavras** (ex: “Messina raises a noise” em vez de “Messy numb razors and knives”).
+- A qualidade da transcrição pode ter sido impactada por:
+  - Elementos musicais de fundo (instrumental, efeitos)
+  - Estilo vocal da cantora
+  - Limitações do reconhecimento para conteúdo artístico/musical
+
+### 💡 O que poderia melhorar:
+- Usar arquivos com **voz mais limpa** (sem música de fundo)
+- Testar com **áudios falados** ao invés de cantados
+- Inserir **legendas manuais** no processo, para treinar modelos personalizados (caso fosse um projeto contínuo)
+
+---
+
+## 🧠 Language Studio – Análise de Sentimentos
+
+### ✅ O que foi feito:
+A transcrição gerada foi usada como base para análise de linguagem natural no Language Studio, com foco na **detecção de sentimentos** e frases-chave.
+
+### 🔍 Resultado:
+
+O modelo detectou **variação emocional** ao longo da letra. Aqui estão alguns trechos analisados e os sentimentos atribuídos:
+
+1. **Sentimento: negativo**
+   - Trecho: *"She wants to scream and cry and rage..."*
+   - Score negativo: **0.61**
+
+2. **Sentimento: positivo**
+   - Trecho: *"The teenage years I never lived...carefree joy and pure delight..."*
+   - Score positivo: **0.68**
+
+3. **Sentimento: negativo**
+   - Trecho: *"Spent my twenties on the run dreamin' of suicide and love..."*
+   - Score negativo: **0.67**
+
+4. **Sentimento: negativo**
+   - Trecho: *"Messy numb razors and knives... Robbed me of a teenage world..."*
+   - Score negativo: **0.95**
+
+5. **Sentimento: neutro**
+   - Trecho: *"Someone, tell me how to heal the terror livin’ inside me..."*
+   - Score neutro: **0.54**
+
+6. **Sentimento: positivo**
+   - Trecho final: *"All the things I lost and loved… Now I understand the world of adult boys…"*
+   - Score positivo: **0.92**
+
+### 💡 Observações:
+- O modelo conseguiu **detectar com precisão trechos com conteúdo emocional intenso**, especialmente os negativos.
+- Frases com ambiguidade poética ou muito subjetiva foram classificadas como **neutras ou mistas**.
+- O Language Studio apresentou bons resultados mesmo com a transcrição incompleta.
+
+---
+
+## 🧠 Conclusão geral
+
+Esse laboratório foi útil para entender como os serviços de IA da Azure lidam com:
+- Linguagem falada (mesmo com música)
+- Análise de sentimentos em textos complexos e artísticos
+
+Apesar das limitações na transcrição de músicas cantadas, o Language Studio se mostrou eficaz para **avaliar o tom emocional** do conteúdo. Para futuros testes, pode ser interessante usar:
+- Áudios falados com clareza
+- Textos previamente transcritos manualmente
+- Casos reais de atendimento ao cliente, entrevistas ou podcasts
+
+---
